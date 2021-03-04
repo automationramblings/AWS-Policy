@@ -29,3 +29,10 @@ ec2admin:
     Service:
       - "ec2.amazonaws.com"
 
+ec2admin-devops:
+  config:
+    Policy:
+      - "S3-DEVOPS"
+      - "EC2Admin"
+    Service:
+      - "ec2.amazonaws.com"
