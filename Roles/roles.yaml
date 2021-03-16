@@ -29,6 +29,14 @@ ec2admin:
     Service:
       - "ec2.amazonaws.com"
 
+lambda-devops:
+  config:
+    Policy:
+      - "Lambda-CICD"
+    Service:
+      - "lambda.amazonaws.com"
+
+
 ec2admin-devops:
   config:
     Policy:
